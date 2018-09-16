@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+
+<html class=" js no-touch backgroundsize csstransforms3d csstransitions" lang="ru" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+  <title>C ДР</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+	
+	<meta name="HandheldFriendly" content="True">
+	
+	<meta name="viewport" content="width=1200">
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto+Slab:700&amp;subset=cyrillic" rel="stylesheet">
+	<link rel="stylesheet" href="index_files\screen.css">
+	<link rel="stylesheet" href="index_files\main.css">
+	<!-- custom modernizr build - REQUIRED -->	
+	<script type="text/javascript" async="" src="index_files\watch.js"></script>
+	<script src="index_files\jquery-2.1.3.min.js"></script>
+	<script src="index_files\modernizr.js"></script>
+	<script>
+	/*
+	(function(doc) {
+
+	var addEvent = 'addEventListener',
+	    type = 'gesturestart',
+	    qsa = 'querySelectorAll',
+	    scales = [1, 1],
+	    meta = qsa in doc ? doc[qsa]('meta[name=viewport]') : [];
+
+	function fix() {
+		meta.content = 'width=device-width,minimum-scale=' + scales[0] + ',maximum-scale=' + scales[1];
+		doc.removeEventListener(type, fix, true);
+	}
+
+	if ((meta = meta[meta.length - 1]) && addEvent in doc) {
+		fix();
+		scales = [.25, 1.6];
+		doc[addEvent](type, fix, true);
+	}
+
+	}(document));	
+	$(document).ready(function (){
+	   $('#subscribe').submit(function (e) {
+	     e.preventDefault();
+ 	     $.post("subscribe.php", $(this).serialize()).done(
+		function (html) {
+		  $('#sform').html('<p align="center">Спасибо!</p>');	
+		});
+	   });
+	});	*/	
+	</script>
+
+	<!-- google maps -->
+	<script type="text/javascript" src="index_files\google.js"></script>
+<script type="text/javascript" charset="UTF-8" src="index_files\common.js"></script><script type="text/javascript" charset="UTF-8" src="index_files\util.js"></script><script type="text/javascript" charset="UTF-8" src="index_files\stats.js"></script></head>
+<!--[if lt IE 9]> <body  id="top" class="ie-fix"><![endif]-->	
+<!--[if (gt IE 8)|!(IE)]><!--> <body class="" style="margin-right: 0px;"><!--<![endif]-->
+<canvas id="canvas">ttt</canvas>
+	<section class="container front-face" id="invitation">
+		<div class="flip">
+			<div class="front"> <!-- the front-face ot the envelope -->
+				<header>
+					<!--<h1>Дорогие</h1>-->
+					<h2>В День Твой Рождения!</h2>
+					<!--<h3>У нас сегодня день рождения!</h3>-->
+
+				</header>
+				<img class="small-scr" src="images/hert.png" width="180" height="180" alt="Back">
+				<a id="flip-me" aria-hidden="true" class="flip-me big-icon icon-spinner" href="#"></a>
+				<span class="note">Тут можно раскрыть</span>
+			</div> <!-- end front -->		
+			<div id="content" class="back">
+				<div id="letter" style="top: -130px;" class="">
+					<div class="page-left">	<!-- start page-left -->	
+						<div class="front"> <!-- front page-left visible when closed -->	
+							<span id="flip-me-back" aria-hidden="true" class="icon-cancel-circle flip-me"></span>
+							<header>
+								<h1>Целых 18!!</h1>
+								<h2>Годиков</h2>
+							</header>
+
+							<img src="index_files\cake_modal.png" alt="Тортик">
+							<p class="title">
+								Это так много
+							</p>
+							<p class="title">
+								Но на самом деле...
+							</p>
+							<span id="open-l" aria-hidden="true" class="big-icon icon-enter"></span><span class="note-green">Сюда, чтобы открыть</span>
+						</div> <!-- end front -->		
+						<div class="back box-wrap"> <!-- back page-left visible when opened-->
+							<div class="page-content">
+								<img src="images\ico3.jpg" class="icon-img" alt="ico">
+								<h2 class="title">Все</h2>
+								<img src="images/car.jpg" alt="">
+								<img src="images/r.jpg" alt="">
+								<!--<p><strong>Что дальше?</strong> Мы знаем, что хотим. Мы уверены, что это нужно миру. Мы меняем себя и растем, с четким видением какими хотим стать, чтобы оставаться полезными и ценными для Вас!</p>-->
+							</div>	<!-- end page content -->
+						</div>	<!-- end back -->
+
+					</div>	<!-- end page-left -->
+
+					<div class="page-middle box-wrap">
+						<div class="page-content">
+							<img src="images\ico2.jpg" class="icon-img" alt="ico">
+							<h2 class="title">Только</h2>
+							<img src="images/smile.jpg" alt="">
+							<img src="images/snow.jpg" alt="">
+								
+
+
+						</div>	<!-- end page content -->
+					</div>	<!-- end page-middle -->
+
+					<div class="page-right">
+						<div class="front">	<!-- front page-right visible when closed -->	
+							<img src="images/hert.png" width="180" height="180" alt="Back">
+							
+						</div> <!-- end front -->
+						<div class="back box-wrap">	<!-- front page-right visible when opened -->
+							<span id="close-l" aria-hidden="true" class="icon-cancel-circle"></span>
+
+							<div class="page-content">
+								<img src="images\ico1.jpg" class="icon-img" alt="ico">
+								<h2 class="title">Начинается</h2>
+								<img src="images/me.jpg" alt="">
+								<img src="images/mimimi.jpg" alt="">
+
+							</div>	<!-- end page content -->
+						</div> <!-- end back -->
+
+					</div>	<!-- end page-right -->
+				</div>	<!-- end letter -->
+				<div id="bb-envelope"></div> <!-- bottom back of the envelope -->
+				<div id="lid">
+  					<div class="flip">    
+  						<div class="front">
+								<p>С любовью</p>
+							</div>
+							<div class="back"></div>
+						</div>
+				</div> 	<!-- end lid -->
+			</div>	<!-- end back -->
+		</div>	<!-- end flip -->
+	</section>
+
+	<footer>
+		© 2018. Happy Bithday!
+	</footer>
+	
+	
+	<!-- jQuery library -->
+	<script src="index_files\jquery.min.js"></script>
+	<script>
+	// 3D TRANSITIONS ARE SWITCHED OFF DUE TO ONLY PARTIAL SUPPORT IN IE10/IE11
+	if (navigator.appName == 'Microsoft Internet Explorer' || navigator.appVersion.indexOf('Trident/') > 0)
+		$(".csstransforms3d").removeClass("csstransforms3d").addClass("no-csstransforms3d");
+	</script>
+
+	<!-- main js script + fancyBox and jscollpane plugins minified -->
+	<script src="index_files\scripts-ck.js"></script>
+	
+	<script>
+	// SETTINGS START
+	$(document).ready(function() {
+		// init invitation
+		invitation.init({
+		gallery : ["images/gallery/gallery1.jpg", "images/gallery/gallery2.jpg", "images/gallery/gallery3.jpg", "images/gallery/gallery4.jpg", "images/gallery/gallery5.jpg", "images/gallery/gallery6.jpg"],
+		titles : ["Успешный региональный блог", "16 успешных рекламных кампаний для 9 автобрендов", "Новый сайт для Volvo", "Выдающийся сайт для завода подогревателей", "Успешное промо, собравшее 1000 детских рисунков за месяц", "Мультиязычный сайт для успешного стартапа"],
+		mapstyles :  [{ "saturation": -77 }]
+			});	
+	});
+	// SETTINGS END
+	</script>
+
+
+
+
+
+<div id="shadowMeasureIt" style="display: none;"></div><div id="divCoordMeasureIt" style="top: 343px; left: 1301px; display: none;">W:486<span class="smallTextMeasureIt">px</span>   H:299<span class="smallTextMeasureIt">px</span></div><div id="divRectangleMeasureIt" style="left: 810px; top: 343px; height: 299px; width: 486px; display: none;"><div id="divRectangleBGMeasureIt"></div></div>
+
+<div class="cake-container">
+	<div class='cake'>
+		<img class="cake-img" src="images/hert.png" alt="">
+		<div class='candles candles-1'></div>
+		<div class='candles candles-2'></div>
+		<div class='candles candles-3'></div>
+		<div class='candles candles-4'></div>
+		<div class='candles candles-5'></div>
+	</div>
+</div>
+<div class="table"></div>
+
+
+</body></html>

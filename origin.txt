@@ -1,0 +1,84 @@
+Uri: http://birthday.netoria.ru/
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\index.html
+Content Type: text/html
+
+Uri: http://birthday.netoria.ru/favicon.ico
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\favicon.ico
+Content Type: image/x-icon
+
+Uri: http://birthday.netoria.ru/index_files/screen.css
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\index_files\screen.css
+Content Type: text/css
+
+Uri: http://birthday.netoria.ru/index_files/watch.js
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\index_files\watch.js
+Content Type: application/x-javascript
+
+Uri: http://birthday.netoria.ru/index_files/jquery-2.1.3.min.js
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\index_files\jquery-2.1.3.min.js
+Content Type: application/x-javascript
+
+Uri: http://birthday.netoria.ru/index_files/modernizr.js
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\index_files\modernizr.js
+Content Type: application/x-javascript
+
+Uri: http://birthday.netoria.ru/index_files/google.js
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\index_files\google.js
+Content Type: application/x-javascript
+
+Uri: http://birthday.netoria.ru/index_files/common.js
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\index_files\common.js
+Content Type: application/x-javascript
+
+Uri: http://birthday.netoria.ru/index_files/util.js
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\index_files\util.js
+Content Type: application/x-javascript
+
+Uri: http://birthday.netoria.ru/index_files/stats.js
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\index_files\stats.js
+Content Type: application/x-javascript
+
+Uri: http://birthday.netoria.ru/index_files/back.jpg
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\index_files\back.jpg
+Content Type: image/jpeg
+
+Uri: http://birthday.netoria.ru/index_files/cake_modal.png
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\index_files\cake_modal.png
+Content Type: image/png
+
+Uri: http://birthday.netoria.ru/images/ico3.jpg
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\images\ico3.jpg
+Content Type: image/jpeg
+
+Uri: http://birthday.netoria.ru/images/ico2.jpg
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\images\ico2.jpg
+Content Type: image/jpeg
+
+Uri: http://birthday.netoria.ru/images/flamp-complex.svg
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\images\flamp-complex.svg
+Content Type: image/svg+xml
+
+Uri: http://birthday.netoria.ru/images/ico1.jpg
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\images\ico1.jpg
+Content Type: image/jpeg
+
+Uri: http://birthday.netoria.ru/index_files/jquery.min.js
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\index_files\jquery.min.js
+Content Type: application/x-javascript
+
+Uri: http://birthday.netoria.ru/index_files/scripts-ck.js
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\index_files\scripts-ck.js
+Content Type: application/x-javascript
+
+Uri: http://birthday.netoria.ru/fonts/invitation.woff
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\fonts\invitation.woff
+Content Type: application/x-font-woff
+
+Uri: http://birthday.netoria.ru/fonts/invitation.ttf
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\fonts\invitation.ttf
+Content Type: 
+
+Uri: http://birthday.netoria.ru/images/stamp.png
+File Name: g:\Downloaded Web Sites\birthday.netoria.ru\images\stamp.png
+Content Type: image/png
+

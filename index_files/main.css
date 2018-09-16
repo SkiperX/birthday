@@ -1,0 +1,50 @@
+/*.candles-2 {
+    left: 40px;
+}
+.candles-3 {
+    left: -40px;
+}
+.candles-4 {
+    bottom: 21.5em;
+}*/
+html, body {
+    height: 100% !important;
+    min-height: 0;
+    overflow: hidden;
+  }
+  .page-content img {
+    border: 5px solid #f7f5ef;
+}
+.touch .note {
+    font-size: 1em;
+}
+.touch.csstransforms3d .container > .flip > .front .flip-me {
+    position: absolute;
+    bottom: 1.05em;
+}
+body {
+    overflow: hidden;
+}
+canvas {
+    bottom: auto;
+    height: 100%;
+}
+html.touch {
+    background: #e2c2c0 !important;
+}
+.touch.csstransforms3d #close-l {
+    right: 16px;
+    zoom: 2;
+    z-index: 10;
+
+}
+.touch #flip-me-back {
+    zoom: 2;
+    right: 5px;
+}
+.touch .note-green {
+    font-size: 1.2em;
+}
+.touch.csstransforms3d #open-l {
+    bottom: 1.3em;
+}
