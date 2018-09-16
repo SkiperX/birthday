@@ -48,3 +48,6 @@ html.touch {
 .touch.csstransforms3d #open-l {
     bottom: 1.3em;
 }
+#letter header h2 {
+    margin-bottom: 0.5em;
+}
